@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { mangaList } from './manga.mocks';
 
 @Component({
   selector: 'app-manga',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class MangaComponent {
 
+  mangaList = mangaList;
 }

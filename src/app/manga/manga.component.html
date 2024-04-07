@@ -1,1 +1,24 @@
-<p>manga works!</p>
+<h1>Mangas</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Volumen</th>
+        <th scope="col">Portada</th>
+        <th scope="col">Paginas</th>
+        <th scope="col">Fecha Publicación</th>
+        <th scope="col">Detalle</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let manga of mangaList">
+        <th scope="row">{{manga.id}}</th>
+        <td>{{manga.volumen}}</td>
+        <td><img src="{{manga.portada}}"></td>
+        <td>{{manga.paginas}}</td>
+        <td>9{{manga.fecha}}</td>
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/manga','Jujutsu Kaisen 0']">Ver Mas</button>
+      </tr>
+    </tbody>
+  </table>

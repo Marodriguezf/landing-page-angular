@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { MangaComponent } from './manga/manga.component';
 import { AnimeComponent } from './anime/anime.component';
 import { PersonajesComponent } from './personajes/personajes.component';
+import { MangaDetailsComponent } from './manga-details/manga-details.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PersonajesComponent } from './personajes/personajes.component';
     HomeComponent,
     MangaComponent,
     AnimeComponent,
-    PersonajesComponent
+    PersonajesComponent,
+    MangaDetailsComponent
   ],
   imports: [
     BrowserModule,
