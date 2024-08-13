@@ -1,0 +1,19 @@
+* {
+    background-color: #210027;
+}
+
+h1 {
+    color: #fffaf3;
+    line-height: 2;
+}
+
+.table>:not(caption)>*>* {
+    background-color: #210027;
+    color: #fffaf3;
+}
+
+.btn-outline-primary{
+    background-color: #c30000 !important;
+    border: none;
+    font-weight: 500;
+}

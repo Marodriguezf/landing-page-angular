@@ -14,10 +14,10 @@
     <tbody>
       <tr *ngFor="let manga of mangaList">
         <th scope="row">{{manga.id}}</th>
-        <td>{{manga.volumen}}</td>
+        <td >{{manga.volumen}}</td>
         <td><img src="{{manga.portada}}"></td>
         <td>{{manga.paginas}}</td>
-        <td>9{{manga.fecha}}</td>
+        <td>{{manga.fecha}}</td>
         <button type="button" class="btn btn-outline-primary" [routerLink]="['/manga','Jujutsu Kaisen 0']">Ver Mas</button>
       </tr>
     </tbody>
